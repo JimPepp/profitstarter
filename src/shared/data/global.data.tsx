@@ -17,7 +17,7 @@ export const announcementData: AnnouncementProps = {
   },
   callToAction2: {
     text: 'Follow @onWidget on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    href: 'https://twitter.com/intent/user?screen_name=jamespeppas',
   },
 };
 
@@ -25,17 +25,17 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
+      label: 'Menu',
       icon: IconChevronDown,
       links: [
         {
           label: 'Services',
           href: '/services',
         },
-        {
-          label: 'Pricing',
-          href: '/pricing',
-        },
+        // {
+        //   label: 'Pricing',
+        //   href: '/pricing',
+        // },
         {
           label: 'About us',
           href: '/about',
@@ -48,29 +48,29 @@ export const headerData: HeaderProps = {
           label: 'FAQs',
           href: '/faqs',
         },
-        {
-          label: 'Terms & Conditions',
-          href: '/terms',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
-        },
+        // {
+        //   label: 'Terms & Conditions',
+        //   href: '/terms',
+        // },
+        // {
+        //   label: 'Privacy Policy',
+        //   href: '/privacy',
+        // },
       ],
     },
     {
       label: 'Blog',
       href: '/blog',
     },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
+    // {
+    //   label: 'Contact',
+    //   href: '/contact',
+    // },
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Contact',
+      href: '/contact',
       targetBlank: true,
     },
   ],

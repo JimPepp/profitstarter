@@ -1,6 +1,6 @@
 const Logo = () => (
-  <span className="ml-2 self-center whitespace-nowrap text-2xl font-bold text-gray-900 dark:text-white md:text-xl">
-    TailNext
+  <span className="ml-2 self-center uppercase whitespace-nowrap text-2xl font-bold text-text-50 md:text-3xl font-Playfair">
+    Profit Starter
   </span>
 );
 

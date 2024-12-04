@@ -24,7 +24,7 @@ const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps)
               aria-controls={`accordion__panel-${index}`}
               role="button"
             >
-              <h2 className="w-full pr-2 text-lg font-medium leading-6 text-gray-900 dark:text-slate-300">{title}</h2>
+              <h2 className="w-full pr-2 text-lg font-medium leading-6 text-primary-50 dark:text-slate-300">{title}</h2>
               {iconDown && iconUp ? (
                 activeIndex === index ? (
                   iconUp
@@ -43,7 +43,7 @@ const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps)
                 aria-labelledby={`accordion__heading-${index}`}
                 id={`accordion__panel-${index}`}
               >
-                <p className="mt-2 text-gray-600 dark:text-slate-400">{description}</p>
+                <p className="mt-2 text-primary-300 dark:text-slate-400">{description}</p>
               </div>
             )}
           </div>

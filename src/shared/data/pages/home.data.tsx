@@ -1,19 +1,20 @@
 import {
   IconArrowDown,
-  IconArrowsRightLeft,
   IconBrandLinkedin,
-  IconBrandTailwind,
   IconBrandTwitter,
   IconBulb,
-  IconCheck,
+  IconCircleCheck,
   IconClock,
   IconComponents,
   IconDownload,
-  IconListCheck,
+  IconPalette,
   IconMail,
   IconMapPin,
   IconPhoneCall,
   IconRocket,
+  IconSend,
+  IconHandClick,
+  IconPercentage30
 } from '@tabler/icons-react';
 import {
   CallToActionProps,
@@ -41,31 +42,30 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Crafting <span className="hidden md:inline">Business and Marketing</span> <span>Strategies</span>{' '}
+      <span className="sm:whitespace-nowrap">For Leaders Like You</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        Premium Solutions tailored to empower your business with <em>out-of-the-box strategies</em> and{' '}
+        <em>innovative technologies</em>.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Built for businesses that{' '}
+      <span className="font-semibold underline decoration-primary-600 decoration-1 underline-offset-2">aim higher</span>{' '}
+      .
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Get in touch',
+    href: '/contact',
+    icon: IconSend,
     targetBlank: true,
   },
   callToAction2: {
     text: 'Learn more',
-    href: '/',
+    href: '/about',
   },
   image: {
     src: heroImg,
@@ -109,72 +109,68 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        What you get with <span className="whitespace-nowrap font-Playfair text-6xl uppercase">Profit Starter</span>
       </>
     ),
-    subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
+    subtitle: 'Made-to-measure solutions to market and automate your business.',
     tagline: 'Features',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
+      title: 'Partner, Not Provider',
+      description: 'Experience a hands-on partnership where your business goals become our shared mission.',
+      icon: IconPercentage30,
       callToAction: {
         text: 'Discover now',
-        href: '/',
+        href: '/contact',
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Exclusivity',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'We work with only three clients per quarter to guarantee undivided attention and unmatched results.',
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
-        href: '/',
+        href: '/contact',
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Creative and Comprehensive Marketing',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
+        'Unleashing innovative strategies across physical, digital, and traditional media — because true marketing knows no bounds.',
+      icon: IconPalette,
       callToAction: {
         text: 'Discover now',
-        href: '/',
+        href: '/contact',
       },
     },
     {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+      title: 'Cutting-Edge AI and Automation Expertise',
+      description: 'Custom-tailored solutions powered by advanced AI, automation, and a creative edge.',
       icon: IconRocket,
       callToAction: {
         text: 'Discover now',
-        href: '/',
+        href: '/contact',
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+      title: 'Transparency and Trust at the Core',
+      description: 'No gatekeeping, no hidden fees — just open communication and complete transparency.',
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
-        href: '/',
+        href: '/contact',
+      },
+    },
+    {
+      title: 'Results That Resonate',
+      description:
+        'Driving revenue growth, customer retention, and streamlined operations through tailored strategies.',
+      icon: IconCircleCheck,
+      callToAction: {
+        text: 'Discover now',
+        href: '/contact',
       },
     },
   ],
@@ -286,6 +282,12 @@ export const stepsHome: StepsProps = {
       title: 'Ready!',
     },
   ],
+  callToAction: {
+    text: 'Get started',
+    href: '/contact',
+    icon: IconHandClick,
+    targetBlank: true,
+  },
 };
 
 // Testimonials data on Home page *******************
@@ -368,33 +370,33 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Still having thoughts about us? Here are the questions we get asked more frequently.',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'How will your services help my business stand out in a crowded market?',
+      description: `Our strategies are designed to help your business break through the noise by leveraging creativity, innovation, and cutting-edge technology. Whether it’s revitalizing your marketing approach or automating processes to free up your time, we ensure your business is positioned as a leader in its field. The result? A brand that captures attention, inspires trust, and drives sustainable growth.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'Can your solutions help me attract and retain more customers?',
+      description: `Absolutely. We focus on understanding your audience and creating strategies that resonate with their needs and desires. From innovative marketing campaigns to streamlined customer experiences, our solutions are tailored to not only bring in new customers but also deepen loyalty among existing ones. Your business will become the go-to choice for your target market.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: "How can you help me save time and focus on what I do best?",
+      description: `We take the stress of managing complex tasks off your plate, allowing you to concentrate on leading and growing your business. By implementing smart automation and streamlined workflows, we eliminate inefficiencies and simplify your operations. You’ll gain valuable time to focus on your passion while feeling confident that the backend of your business is running smoothly.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "Will your services help me achieve measurable growth?",
+      description: `Yes, our ultimate goal is to deliver measurable outcomes that matter to you. Whether it’s increasing revenue, scaling your operations, or enhancing customer engagement, we align our strategies with your vision of success. You’ll see clear, tangible progress that validates your investment and fuels your confidence in your business’s potential.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How will I know your strategies are working for my business?',
+      description: `We believe in transparency and measurable results. Throughout our collaboration, we’ll provide regular updates, actionable insights, and clear metrics that demonstrate the impact of our strategies. From increased sales to improved operational efficiency, you’ll have a clear picture of how our solutions are driving your business forward.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What kind of transformation can I expect for my business?',
+      description: `Imagine a business that feels effortless to run, attracts the right clients consistently, and operates at its peak potential. That’s the transformation we aim to deliver. By addressing your unique challenges and crafting strategies that align with your goals, we help you unlock the next level of growth and success while reducing stress and uncertainty.`,
     },
   ],
 };
@@ -605,7 +607,7 @@ export const teamHome: TeamProps = {
 
 // Contact data on Home page *******************
 export const contactHome: ContactProps = {
-  hasBackground: true,
+  hasBackground: false,
   header: {
     title: 'Get in Touch',
     subtitle: 'In hac habitasse platea dictumst',

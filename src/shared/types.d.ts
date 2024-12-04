@@ -294,6 +294,7 @@ type StepsProps = Widget & {
   image?: Image;
   /** Do you want to reverse the widget? */
   isReversed?: boolean;
+  callToAction?: CallToActionType;
 };
 
 type TeamProps = Widget & {

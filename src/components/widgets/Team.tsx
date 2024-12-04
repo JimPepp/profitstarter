@@ -18,8 +18,8 @@ const Team = ({ header, teams, id, hasBackground = false }: TeamProps) => (
               containerClass=""
               imageClass="h-72 w-60 rounded-md object-cover shadow-lg bg-gray-500 dark:bg-slate-700"
               panelClass="relative mt-3 text-center"
-              nameClass="mb-1.5 text-xl font-bold"
-              occupationClass="mb-7 text-base font-medium capitalize text-gray-600 dark:text-slate-400"
+              nameClass="mb-1.5 text-xl text-primary-50 font-bold"
+              occupationClass="mb-7 text-base text-primary-200 font-medium capitalize"
               itemsClass="absolute right-[-10px] top-[-290px] block list-none rounded-md bg-white/70 shadow-[0_0_8px_rgba(0,0,0,0.2)] backdrop-blur-sm dark:bg-white/40"
             />
           </div>

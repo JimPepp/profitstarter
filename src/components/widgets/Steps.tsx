@@ -4,6 +4,7 @@ import { StepsProps } from '~/shared/types';
 import WidgetWrapper from '../common/WidgetWrapper';
 import Timeline from '../common/Timeline';
 import Headline from '../common/Headline';
+import CTA from '../common/CTA';
 
 const Steps = ({
   id,
@@ -13,6 +14,7 @@ const Steps = ({
   image,
   isReversed = false,
   hasBackground = false,
+  callToAction,
 }: StepsProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="max-w-6xl ">
     <div
@@ -29,11 +31,14 @@ const Steps = ({
           <Headline
             header={header}
             containerClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
-            titleClass="text-3xl sm:text-4xl"
+            titleClass="text-3xl text-primary-50 sm:text-4xl"
             subtitleClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
           />
         )}
         <Timeline items={items} defaultIcon={IconCheck} iconClass="text-primary border-primary-900" />
+      </div>
+      <div className="md:hidden flex max-w-none flex-nowrap gap-4 py-12 flex-row justify-center">
+        {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
       </div>
       {isImageDisplayed && (
         <div className="relative md:basis-1/2">
@@ -51,6 +56,9 @@ const Steps = ({
         </div>
       )}
     </div>
+      <div className="hidden md:flex max-w-none flex-nowrap gap-4 py-12 flex-row justify-center">
+        {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
+      </div>
   </WidgetWrapper>
 );
 
