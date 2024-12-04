@@ -57,7 +57,7 @@ const ItemGrid = ({
                       linkClass={twMerge(
                         `${
                           title || description ? 'mt-3' : ''
-                        } text-primary font-bold text-primary-600 hover:underline cursor-pointer`,
+                        } text-primary font-bold hover:text-accent-600 text-accent-200/90 hover:underline cursor-pointer`,
                         actionClass,
                       )}
                     />

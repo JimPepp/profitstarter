@@ -57,7 +57,7 @@ const Header = () => {
 
   return (
     <header
-      className={`font-Playfair top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-900 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 ${
+      className={`font-Playfair top-0 z-40 mx-auto w-full flex-none bg-background-950 transition-all duration-100 ease-i md:bg-background-950/90 md:backdrop-blur-sm ${
         isSticky ? 'sticky' : 'relative'
       } ${isToggleMenuOpen ? 'h-screen md:h-auto' : 'h-auto'}`}
       id="header"
@@ -66,7 +66,7 @@ const Header = () => {
         <div
           className={`flex justify-between py-3 px-3 md:py-0 md:px-0 ${
             isToggleMenuOpen
-              ? 'md:bg-transparent md:dark:bg-transparent md:border-none bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-600'
+              ? 'md:bg-transparent md:dark:bg-transparent md:border-none bg-background-950 border-primary-200'
               : ''
           }`}
         >
@@ -99,7 +99,7 @@ const Header = () => {
                   {links && links.length ? (
                     <>
                       <button
-                        className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+                        className="flex text-xl items-center px-4 py-3 font-medium transition duration-150 ease-in-outn text-text-50 hover:text-text-300 dark:hover:text-white"
                         onClick={() => handleDropdownOnClick(index)}
                       >
                         {label}{' '}
@@ -114,12 +114,12 @@ const Header = () => {
                       <ul
                         className={`${
                           isDropdownOpen[index] ? 'block' : 'md:hidden'
-                        } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md dark:md:bg-slate-900/90 md:border md:border-gray-200 md:dark:border-slate-700`}
+                        } text-xl rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md dark:md:bg-slate-900/90 md:border md:border-gray-200 md:dark:border-slate-700`}
                       >
                         {links.map(({ label: label2, href: href2 }, index2) => (
                           <li key={`item-link-${index2}`}>
                             <Link
-                              className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
+                              className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b hover:text-text-300 text-text-50 md:hover:bg-secondary-950"
                               href={href2 as string}
                               onClick={() =>
                                 isToggleMenuOpen ? handleToggleMenuOnClick() : handleCloseDropdownOnClick(index)
@@ -133,7 +133,7 @@ const Header = () => {
                     </>
                   ) : (
                     <Link
-                      className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+                      className="flex text-xl items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-text-300 text-text-50"
                       href={href as string}
                       onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleDropdownOnClick(index))}
                     >
@@ -156,7 +156,7 @@ const Header = () => {
                   <CTA
                     key={`item-action-${index}`}
                     callToAction={callToAction as CallToActionType}
-                    linkClass="btn btn-primary m-1 py-2 px-5 text-sm font-semibold shadow-none md:px-6"
+                    linkClass="btn text-xl btn-primary m-1 py-2 px-5 text-sm font-semibold shadow-none md:px-6"
                   />
                 ))}
               </div>

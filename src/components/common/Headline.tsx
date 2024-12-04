@@ -16,15 +16,15 @@ const Headline = ({ header, containerClass, titleClass, subtitleClass }: Headlin
           )}
         >
           {tagline && (
-            <p className="text-base font-semibold uppercase tracking-wide text-primary-300">
+            <p className="text-base font-semibold uppercase tracking-wide text-accent-600">
               {tagline}
             </p>
           )}
-          {title && <h2 className={twMerge(`font-heading mb-4 font-bold tracking-tight text-primary-50`, titleClass)}>{title}</h2>}
+          {title && <h2 className={twMerge(`font-heading mb-4 font-bold tracking-tight text-text-50`, titleClass)}>{title}</h2>}
           {subtitle && (
             <p
               className={twMerge(
-                `mx-auto mt-4 max-w-3xl text-xl text-primary-200 dark:text-slate-400 ${
+                `mx-auto mt-4 max-w-3xl text-xl text-text-50/80 dark:text-slate-400 ${
                   position === 'left' ? 'text-left ml-0' : position === 'right' ? 'text-right mr-0' : 'text-center'
                 }`,
                 subtitleClass,

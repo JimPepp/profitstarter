@@ -14,12 +14,12 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
               </p>
             )}
             {title && (
-              <h1 className="text-primary-50 leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
+              <h1 className="text-text-50 leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
                 {title}
               </h1>
             )}
             <div className="mx-auto max-w-3xl">
-              {subtitle && <p className="mb-6 text-xl font-normal text-primary-200">{subtitle}</p>}
+              {subtitle && <p className="mb-6 text-xl font-normal text-text-50/80">{subtitle}</p>}
               <div className="flex max-w-none flex-col flex-nowrap gap-4 px-4 sm:flex-row sm:justify-center">
                 {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
                 {callToAction2 && <CTA callToAction={callToAction2} linkClass="btn" />}

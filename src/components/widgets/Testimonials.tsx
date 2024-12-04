@@ -71,7 +71,7 @@ const Testimonials = ({
     {callToAction && (
       <CTA
         callToAction={callToAction}
-        containerClass="flex justify-center mx-auto w-fit mt-8 md:mt-12"
+        containerClass="flex justify-center mx-auto w-fit" /*mt-8 md:mt-12*/
         linkClass="btn"
       />
     )}

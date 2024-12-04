@@ -31,14 +31,11 @@ const Steps = ({
           <Headline
             header={header}
             containerClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
-            titleClass="text-3xl text-primary-50 sm:text-4xl"
-            subtitleClass={isImageDisplayed ? 'text-left rtl:text-right' : ''}
+            titleClass="text-3xl text-text-50 sm:text-4xl"
+            subtitleClass={isImageDisplayed ? 'text-left rtl:text-right text-text-50/80' : ''}
           />
         )}
         <Timeline items={items} defaultIcon={IconCheck} iconClass="text-primary border-primary-900" />
-      </div>
-      <div className="md:hidden flex max-w-none flex-nowrap gap-4 py-12 flex-row justify-center">
-        {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
       </div>
       {isImageDisplayed && (
         <div className="relative md:basis-1/2">
@@ -56,9 +53,6 @@ const Steps = ({
         </div>
       )}
     </div>
-      <div className="hidden md:flex max-w-none flex-nowrap gap-4 py-12 flex-row justify-center">
-        {callToAction && <CTA callToAction={callToAction} linkClass="btn btn-primary" />}
-      </div>
   </WidgetWrapper>
 );
 
