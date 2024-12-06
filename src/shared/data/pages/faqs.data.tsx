@@ -12,7 +12,6 @@ export const heroFaqs: HeroProps = {
       Explore them to optimize your experience with our website and products.
     </>
   ),
-  tagline: 'Demo FAQs Page',
 };
 
 // FAQS4 data on FAQs page *******************

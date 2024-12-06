@@ -25,10 +25,10 @@ export const headerData: HeaderProps = {
       label: 'Menu',
       icon: IconChevronDown,
       links: [
-        {
-          label: 'Services',
-          href: '/services',
-        },
+        // {
+        //   label: 'Services',
+        //   href: '/services',
+        // },
         // {
         //   label: 'Pricing',
         //   href: '/pricing',

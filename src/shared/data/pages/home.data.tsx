@@ -260,29 +260,30 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: 'Your Partner in Progress',
   },
   items: [
     {
-      title: 'Step 1',
+      title: 'Connect and Collaborate',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'Schedule a consultation to discuss your needs and explore how we can help.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: 'Tailor Your Solution',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'We create a plan designed specifically for your business challenges and goals.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: 'Work Hand in Hand',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Together, we bring the strategy to life, with regular updates and transparent communication.',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: 'Partnership in Action',
+      description: 'Enjoy the benefits of a trusted partner dedicated to your success.',
     },
   ],
   callToAction: {
@@ -379,7 +380,6 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle: 'Still having thoughts about us? Here are the questions we get asked more frequently.',
-    tagline: 'FAQS',
   },
   items: [
     {
@@ -407,6 +407,10 @@ export const faqs2Home: FAQsProps = {
       description: `Imagine a business that feels effortless to run, attracts the right clients consistently, and operates at its peak potential. That’s the transformation we aim to deliver. By addressing your unique challenges and crafting strategies that align with your goals, we help you unlock the next level of growth and success while reducing stress and uncertainty.`,
     },
   ],
+  callToAction: {
+    text: 'Read more FAQs',
+    href: '/faqs'
+  }
 };
 
 // Pricing data on Home page *******************
@@ -507,9 +511,8 @@ export const teamHome: TeamProps = {
     title: 'Team Members',
     subtitle: (
       <>
-        I may be the face of{' '}
         <span className="font-Playfair font-bold text-2xl text-text-50 uppercase">Profit Starter</span>{' '}
-        but I’m backed by cutting-edge technologies, and a network of collaborators to ensure every
+        has only one face currently, but we are backed by cutting-edge technologies, and a network of collaborators to ensure every
         project’s success.
       </>
     ),
@@ -624,27 +627,27 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: 'Where Innovation Meets Your Goals',
     tagline: 'Work with Us',
   },
   content:
     'We work with a select number of clients each quarter to ensure personalized service and exceptional results. We value your time and your trust. Share your vision, and we’ll respond with a personalized plan to help you achieve it.',
   items: [
-    // {
-    //   title: 'Our Address',
-    //   description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
-    //   icon: IconMapPin,
-    // },
-    // {
-    //   title: 'Contact',
-    //   description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
-    //   icon: IconPhoneCall,
-    // },
-    // {
-    //   title: 'Working hours',
-    //   description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
-    //   icon: IconClock,
-    // },
+    {
+      title: 'Our Address',
+      description: ['Aleksandrou 2, Piraeus, 18533,','Athens - Attica, Greece'],
+      icon: IconMapPin,
+    },
+    {
+      title: 'Contact',
+      description: ['Mobile: +30 694 353 1213', 'Mail: contact@profitstarter.net'],
+      icon: IconPhoneCall,
+    },
+    {
+      title: 'Working hours',
+      description: ['Monday - Friday: 08:00 - 17:00', 'GMT +2 Athens, Bucharest'],
+      icon: IconClock,
+    },
   ],
   form: {
     title: 'Apply to collaborate',
@@ -669,7 +672,7 @@ export const contactHome: ContactProps = {
       placeholder: 'Write your message...',
     },
     btn: {
-      title: 'Send Message',
+      title: 'Contact us',
       type: 'submit',
     },
   },

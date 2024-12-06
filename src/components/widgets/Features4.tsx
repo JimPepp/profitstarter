@@ -41,9 +41,9 @@ const Features4 = ({
       defaultColumns={4}
       containerClass={`mt-12 ${columns === 2 ? 'max-w-5xl' : ''}`}
       panelClass={`flex max-w-full ${columns === 2 ? ' sm:max-w-md mx-auto' : ''}`}
-      titleClass="text-lg font-semibold mb-2"
-      descriptionClass="mt-0.5"
-      iconClass="flex-shrink-0 mr-4 mt-1 w-6 h-6 text-primary-800 dark:text-primary-600"
+      titleClass="text-lg font-semibold mb-2 text-text-50"
+      descriptionClass="mt-0.5 text-text-50/80"
+      iconClass="flex-shrink-0 mr-4 mt-1 w-6 h-6 text-accent-500"
     />
   </WidgetWrapper>
 );

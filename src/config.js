@@ -2,7 +2,7 @@ module.exports.SITE = {
   name: 'Profit Starter',
 
   origin: '',
-  basePathname: '/favicon.png',
+  basePathname: '/',
   trailingSlash: false,
 
   title: 'Custom Marketing Strategies | Tailored Solutions by PROFIT STARTER',
