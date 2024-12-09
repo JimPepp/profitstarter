@@ -232,8 +232,8 @@ export const footerData2: FooterProps = {
   ],
   columns: [
     {
-      title: 'Address',
-      texts: ['Aleksandrou 2, 18533, Piraeus', 'Athens, Attica Greece'],
+      title: 'Location',
+      texts: ['Piraeus - Athens', 'Attica, Greece'],
     },
     {
       title: 'Phone',

@@ -40,11 +40,11 @@ import {
 export const hero2About: HeroProps = {
   title: 'Our Commitment to Results, Tailored to Your Success',
   subtitle:
-    'At the heart of our business is a passion for crafting custom solutions that bring you results. From personalized marketing strategies to innovative automation systems, we work hand-in-hand with you to transform challenges into opportunities. Our mission is to be more than a service provider—we’re your dedicated partner in achieving sustainable growth.',
+    'At the heart of our business is a passion for crafting custom solutions that bring you results. We work hand-in-hand with you to transform challenges into opportunities with our personalized marketing campaigns. Our mission is to be more than a service provider—we’re your dedicated partner in achieving sustainable growth.',
   tagline: `About Us`,
   callToAction: {
     text: 'Get in touch',
-    href: '/contact',
+    href: '/contact/#contactTwo-on-contact',
     targetBlank: false,
   },
   image: {
@@ -95,25 +95,25 @@ export const featuresFourAboutTwo: FeaturesProps = {
   hasBackground: false,
   header: {
     title: 'Our values',
-    subtitle: 'Built on a foundation of integrity, innovation, and dedication, our values guide everything we do. Here’s what we stand for:',
+    subtitle: 'Built on a foundation of integrity, innovation, and dedication, our values guide everything we do. Here is what we stand for:',
   },
   isAfterContent: true,
   columns: 2,
   items: [
     {
       title: 'Transparency',
-      description: 'We believe trust is built on openness. That’s why we keep every interaction honest, straightforward, and free from hidden agendas.',
+      description: 'We believe trust is built on openness. That is why we keep every interaction honest, straightforward, and free from hidden agendas.',
       icon: IconUser,
     },
     {
       title: 'Personalization',
       description:
-        'We take the time to understand your unique needs, crafting strategies that align with your goals and vision. It’s this personal approach that ensures every solution feels tailor-made.',
+        'We take the time to understand your unique needs, creating campaigns that align with your goals and vision. It is this personal approach that ensures every solution feels tailor-made.',
       icon: IconAdjustments,
     },
     {
       title: 'Innovation',
-      description: 'We leverage the latest advancements in technology and AI to deliver cutting-edge solutions that keep you competitive in a rapidly evolving marketplace.',
+      description: 'We leverage the latest advancements in AI to setup cutting-edge campaigns that keep you competitive in a rapidly evolving marketplace.',
       icon: IconBulb,
     },
     {
@@ -123,7 +123,7 @@ export const featuresFourAboutTwo: FeaturesProps = {
     },
     {
       title: 'Sustainability',
-      description: 'We aim for long-term success—not just quick wins. Our strategies are designed to provide lasting value, helping your business thrive in both the present and the future.',
+      description: 'We aim for long-term success—not just quick wins. Our campaigns are designed to provide lasting value, helping your business thrive in both the present and the future.',
       icon: IconHomeEco,
     },
     {

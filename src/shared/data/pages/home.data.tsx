@@ -62,7 +62,7 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'Get in touch',
-    href: '/contact',
+    href: '/contact/#contactTwo-on-contact',
     icon: IconSend,
     targetBlank: true,
   },
@@ -115,7 +115,7 @@ export const featuresHome: FeaturesProps = {
         What you get with <span className="whitespace-nowrap font-Playfair text-6xl uppercase">Profit Starter</span>
       </>
     ),
-    subtitle: 'Made-to-measure solutions to market and automate your business.',
+    subtitle: 'Made-to-measure solutions to market and your business.',
     tagline: 'Features',
   },
   items: [
@@ -125,7 +125,7 @@ export const featuresHome: FeaturesProps = {
       icon: IconPercentage30,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
     {
@@ -135,7 +135,7 @@ export const featuresHome: FeaturesProps = {
       icon: IconComponents,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
     {
@@ -145,16 +145,16 @@ export const featuresHome: FeaturesProps = {
       icon: IconPalette,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
     {
-      title: 'Cutting-Edge AI and Automation Expertise',
-      description: 'Custom-tailored solutions powered by advanced AI, automation, and a creative edge.',
+      title: 'Cutting-Edge AI Expertise',
+      description: 'Custom-tailored solutions powered by advanced AI and a creative edge.',
       icon: IconRocket,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
     {
@@ -163,7 +163,7 @@ export const featuresHome: FeaturesProps = {
       icon: IconBulb,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
     {
@@ -173,7 +173,7 @@ export const featuresHome: FeaturesProps = {
       icon: IconCircleCheck,
       callToAction: {
         text: 'Discover now',
-        href: '/contact',
+        href: '/contact/#contactTwo-on-contact',
       },
     },
   ],
@@ -288,7 +288,7 @@ export const stepsHome: StepsProps = {
   ],
   callToAction: {
     text: 'Get started',
-    href: '/contact',
+    href: '/contact/#contactTwo-on-contact',
     icon: IconHandClick,
     targetBlank: true,
   },
@@ -299,13 +299,13 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'Your success story could be here. Let’s start building it together!',
+    title: 'Your success story could be here.',
     subtitle:
-      'As we launch our services, we’re offering exclusive introductory pricing to our first three clients in exchange for detailed feedback and testimonials. Take advantage of this limited opportunity to receive premium, tailored business solutions at a fraction of the cost while setting the foundation for a long-term partnership.',
+      'As we launch our services, we’re offering an exclusive introductory package to our first three clients in exchange for detailed feedback and testimonials. Contact us to learn more!',
   },
   callToAction: {
     text: 'Contact us',
-    href: '/contact',
+    href: '/contact/#contactTwo-on-contact',
     targetBlank: true,
   },
   isTestimonialUp: false,
@@ -383,28 +383,20 @@ export const faqs2Home: FAQsProps = {
   },
   items: [
     {
-      title: 'How will your services help my business stand out in a crowded market?',
-      description: `Our strategies are designed to help your business break through the noise by leveraging creativity, innovation, and cutting-edge technology. Whether it’s revitalizing your marketing approach or automating processes to free up your time, we ensure your business is positioned as a leader in its field. The result? A brand that captures attention, inspires trust, and drives sustainable growth.`,
-    },
-    {
       title: 'Can your solutions help me attract and retain more customers?',
       description: `Absolutely. We focus on understanding your audience and creating strategies that resonate with their needs and desires. From innovative marketing campaigns to streamlined customer experiences, our solutions are tailored to not only bring in new customers but also deepen loyalty among existing ones. Your business will become the go-to choice for your target market.`,
     },
     {
-      title: 'How can you help me save time and focus on what I do best?',
-      description: `We take the stress of managing complex tasks off your plate, allowing you to concentrate on leading and growing your business. By implementing smart automation and streamlined workflows, we eliminate inefficiencies and simplify your operations. You’ll gain valuable time to focus on your passion while feeling confident that the backend of your business is running smoothly.`,
-    },
-    {
       title: 'Will your services help me achieve measurable growth?',
-      description: `Yes, our ultimate goal is to deliver measurable outcomes that matter to you. Whether it’s increasing revenue, scaling your operations, or enhancing customer engagement, we align our strategies with your vision of success. You’ll see clear, tangible progress that validates your investment and fuels your confidence in your business’s potential.`,
+      description: `Yes, our ultimate goal is to deliver measurable outcomes that matter to you. Whether it is increasing revenue, scaling your operations, or enhancing customer engagement, we align our strategies with your vision of success. You will see clear, tangible progress that validates your investment and fuels your confidence in your business’s potential.`,
     },
     {
       title: 'How will I know your strategies are working for my business?',
-      description: `We believe in transparency and measurable results. Throughout our collaboration, we’ll provide regular updates, actionable insights, and clear metrics that demonstrate the impact of our strategies. From increased sales to improved operational efficiency, you’ll have a clear picture of how our solutions are driving your business forward.`,
+      description: `We believe in transparency and measurable results. Throughout our collaboration, we will provide regular updates, actionable insights, and clear metrics that demonstrate the impact of our strategies. From increased sales to improved operational efficiency, you will have a clear picture of how our solutions are driving your business forward.`,
     },
     {
       title: 'What kind of transformation can I expect for my business?',
-      description: `Imagine a business that feels effortless to run, attracts the right clients consistently, and operates at its peak potential. That’s the transformation we aim to deliver. By addressing your unique challenges and crafting strategies that align with your goals, we help you unlock the next level of growth and success while reducing stress and uncertainty.`,
+      description: `Imagine a business that feels effortless to run, attracts the right clients consistently, and operates at its peak potential. That is the transformation we aim to deliver. By addressing your unique challenges and crafting strategies that align with your goals, we help you unlock the next level of growth and success while reducing stress and uncertainty.`,
     },
   ],
   callToAction: {
@@ -631,11 +623,11 @@ export const contactHome: ContactProps = {
     tagline: 'Work with Us',
   },
   content:
-    'We work with a select number of clients each quarter to ensure personalized service and exceptional results. We value your time and your trust. Share your vision, and we’ll respond with a personalized plan to help you achieve it.',
+    'We work with a select number of clients each quarter to ensure personalized service and exceptional results. We value your time and your trust. Get in touch with us, and we will do our best to help you achieve your goals.',
   items: [
     {
-      title: 'Our Address',
-      description: ['Aleksandrou 2, Piraeus, 18533,','Athens - Attica, Greece'],
+      title: 'Our Location',
+      description: ['Piraeus - Athens','Attica, Greece'],
       icon: IconMapPin,
     },
     {
