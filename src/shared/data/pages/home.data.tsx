@@ -6,8 +6,7 @@ import {
   IconCircleCheck,
   IconClock,
   IconComponents,
-  IconDownload,
-  IconPalette,
+  IconTrendingUp,
   IconMail,
   IconMapPin,
   IconPhoneCall,
@@ -139,10 +138,10 @@ export const featuresHome: FeaturesProps = {
       },
     },
     {
-      title: 'Creative and Comprehensive Marketing',
+      title: 'Scalable Solutions',
       description:
-        'Unleashing innovative strategies across physical, digital, and traditional media — because true marketing knows no bounds.',
-      icon: IconPalette,
+        'Our solutions are completely scalable and tailored exactly to your needs.',
+      icon: IconTrendingUp,
       callToAction: {
         text: 'Discover now',
         href: '/contact/#contactTwo-on-contact',
@@ -679,7 +678,7 @@ export const callToAction2Home: CallToActionProps = {
     {
       title: 'Get the case study',
       description: 'Discover how tailored strategies deliver real results.',
-      href: '',
+      href: "/dummy.pdf",
     },
     {
       title: 'Read the blog',
