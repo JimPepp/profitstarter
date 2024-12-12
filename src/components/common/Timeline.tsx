@@ -19,8 +19,8 @@ const Timeline = ({
             <div key={id ? `item-${id}-${index}` : `item-grid-${index}`} className={twMerge('flex', panelClass)}>
               <div className="flex flex-col items-center mr-4 rtl:mr-0 rtl:ml-4">
                 <div
-                  className={`flex items-center justify-center border-primary-200 border-2 rounded-full ${
-                    index !== items.length - 1 ? '' : 'text-primary-50  bg-primary-900'
+                  className={`flex items-center justify-center border-accent-500 border-2 rounded-full ${
+                    index !== items.length - 1 ? '' : 'text-text-50  bg-accent-500'
                   }`}
                 >
                   {Icon ? (
@@ -30,16 +30,16 @@ const Timeline = ({
                   ) : null}
                 </div>
 
-                {index !== items.length - 1 && <div className="w-[2px] h-full bg-primary-200 dark:bg-slate-400/50" />}
+                {index !== items.length - 1 && <div className="w-[2px] h-full bg-accent-500/50 dark:bg-slate-400/50" />}
               </div>
               <div className={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
                 {title && (
-                  <h3 className={twMerge('text-xl font-bold text-primary-50 dark:text-slate-300 mb-2', titleClass)}>
+                  <h3 className={twMerge('text-xl font-bold text-text-50 dark:text-slate-300 mb-2', titleClass)}>
                     {title}
                   </h3>
                 )}
                 {description && (
-                  <p className={twMerge('text-primary-200 dark:text-slate-400', descriptionClass)}>{description}</p>
+                  <p className={twMerge('text-text-50/80 dark:text-slate-400', descriptionClass)}>{description}</p>
                 )}
               </div>
             </div>

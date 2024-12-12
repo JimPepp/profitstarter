@@ -7,11 +7,10 @@ export const heroContact: HeroProps = {
   title: 'Get in touch with us',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`Thank you for considering us for your project! We're excited to hear from you.`}</span>{' '}
-      {`Our team can assist you in building your dream website.`}
+      <span className="hidden md:inline">{`Your goals are our priority. We're excited to hear from you.`}</span>{' '}
+      {`Together, we’ll create innovative approaches to meet your unique business needs.`}
     </>
   ),
-  tagline: 'Demo Contact Page',
 };
 
 // Contact data on Contact page *******************
@@ -23,7 +22,7 @@ export const contact2Contact: ContactProps = {
     subtitle: (
       <>
         Please take a moment to fill out this form.{' '}
-        <span className="hidden md:inline">{`So we can better understand your needs and get the process started smoothly.`}</span>
+        <span className="hidden md:inline">{`Our commitment to your vision begins with your first message.`}</span>
       </>
     ),
   },
@@ -69,23 +68,23 @@ export const contact2Contact: ContactProps = {
         placeholder: 'Email address',
       },
     ],
-    radioBtns: {
-      label: 'What is the reason for your contact?',
-      radios: [
-        {
-          label: 'General inquiries',
-        },
-        {
-          label: 'Technical help',
-        },
-        {
-          label: 'Claims',
-        },
-        {
-          label: 'Others',
-        },
-      ],
-    },
+    // radioBtns: {
+    //   label: 'What is the reason for your contact?',
+    //   radios: [
+    //     {
+    //       label: 'General inquiries',
+    //     },
+    //     {
+    //       label: 'Technical help',
+    //     },
+    //     {
+    //       label: 'Claims',
+    //     },
+    //     {
+    //       label: 'Others',
+    //     },
+    //   ],
+    // },
     textarea: {
       cols: 30,
       rows: 5,
@@ -93,16 +92,16 @@ export const contact2Contact: ContactProps = {
       name: 'textarea',
       placeholder: 'Write your message...',
     },
-    checkboxes: [
-      {
-        label: 'Have you read our privacy policy?',
-        value: '',
-      },
-      {
-        label: 'Do you want to receive monthly updates by email?',
-        value: '',
-      },
-    ],
+    // checkboxes: [
+    //   {
+    //     label: 'Have you read our privacy policy?',
+    //     value: '',
+    //   },
+    //   {
+    //     label: 'Do you want to receive monthly updates by email?',
+    //     value: '',
+    //   },
+    // ],
     btn: {
       title: 'Send Message',
       type: 'submit',

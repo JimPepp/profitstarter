@@ -5,8 +5,8 @@ const Card = ({ title, description, href, form }: Item) => (
   <div className="card mb-6 px-5 py-4">
     <div className="flex items-center justify-between">
       <div className="w-full">
-        <h3 className="mb-3 text-xl font-bold text-gray-700 dark:text-white">{title}</h3>
-        <p className="text-gray-600 dark:text-slate-400">{description}</p>
+        <h3 className="mb-3 text-xl font-bold text-text-50">{title}</h3>
+        <p className="text-text-50/80">{description}</p>
       </div>
       {href && (
         <div className="flex h-10 w-10 items-center justify-center">
@@ -20,7 +20,7 @@ const Card = ({ title, description, href, form }: Item) => (
           <div className="flex items-center">
             {form.icon && (
               <span className="rounded-bl-md rtl:rounded-bl-none rtl:rounded-br-md rounded-tl-md rtl:rounded-tl-none rtl:rounded-tr-md border-r-[1px] rtl:border-r-none rtl:border-l-[1px] border-gray-400 px-2 py-2 dark:bg-[#3b3b3b]">
-                <form.icon className="h-6 w-6 text-primary-600 dark:text-gray-400" />
+                <form.icon className="h-6 w-6 text-accent-600" />
               </span>
             )}
             <input
@@ -32,7 +32,7 @@ const Card = ({ title, description, href, form }: Item) => (
             />
             <button
               type={form.btn.type}
-              className="rounded-br-md rtl:rounded-br-none rtl:rounded-bl-md rounded-tr-md rtl:rounded-tr-none rtl:rounded-tl-md border-l-[1px] rtl:border-l-none rtl:border-r-[1px] border-gray-400 bg-primary-600 px-4 py-2 text-white"
+              className="rounded-br-md rtl:rounded-br-none rtl:rounded-bl-md rounded-tr-md rtl:rounded-tr-none rtl:rounded-tl-md border-l-[1px] rtl:border-l-none rtl:border-r-[1px] px-4 py-2 btn-primary"
             >
               {form.btn.title}
             </button>
@@ -44,12 +44,12 @@ const Card = ({ title, description, href, form }: Item) => (
 );
 
 const CallToAction2 = ({ title, subtitle, items }: CallToActionProps) => (
-  <section className="bg-primary-900 text-primary-200" id="callToActionTwo">
+  <section className="bg-accent-900 text-text-50" id="callToActionTwo">
     <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:pt-20">
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mx-auto md:my-auto md:ml-0 md:pb-6 md:pr-24">
           <h2 className="mb-3 flex justify-center text-6xl font-bold md:justify-start">{title}</h2>
-          <p className="text-center text-xl text-primary-200 dark:text-slate-300 md:text-left rtl:md:text-right">
+          <p className="text-center text-xl text-text-50/80 dark:text-slate-300 md:text-left rtl:md:text-right">
             {subtitle}
           </p>
         </div>

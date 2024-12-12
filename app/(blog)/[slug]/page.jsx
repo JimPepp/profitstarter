@@ -29,13 +29,13 @@ export default async function Page({ params }) {
 
   return (
     <section className="mx-auto py-8 sm:py-16 lg:py-20">
-      <article>
+      <article className='text-text-50/80'>
         <header className={post.image ? 'text-center' : ''}>
           <p className="mx-auto max-w-3xl px-4 sm:px-6">
             <time dateTime={post.publishDate}>{getFormattedDate(post.publishDate)}</time> ~{' '}
             {/* {Math.ceil(post.readingTime)} min read */}
           </p>
-          <h1 className="leading-tighter font-heading mx-auto mb-8 max-w-3xl px-4 text-4xl font-bold tracking-tighter sm:px-6 md:text-5xl">
+          <h1 className="text-text-50 leading-tighter font-heading mx-auto mb-8 max-w-3xl px-4 text-4xl font-bold tracking-tighter sm:px-6 md:text-5xl">
             {post.title}
           </h1>
           {post.image ? (
@@ -56,7 +56,7 @@ export default async function Page({ params }) {
           )}
         </header>
         <div
-          className="prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-primary-600 prose-img:rounded-md prose-img:shadow-lg dark:prose-invert dark:prose-headings:text-slate-300 dark:prose-a:text-primary-400 sm:px-6 lg:prose-xl"
+          className="prose-p:text-text-50 prose-headings:text-text-50/80 prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-accent-500 prose-img:rounded-md prose-img:shadow-lg dark:prose-invert sm:px-6 lg:prose-xl"
           dangerouslySetInnerHTML={{
             __html: md({
               html: true,

@@ -32,24 +32,20 @@ import {
   IconPhoneCall,
   IconPuzzle2,
   IconScale,
-  IconThumbUp,
+  IconStars,
   IconUser,
 } from '@tabler/icons-react';
 
 // Hero2 data on About page *******************
 export const hero2About: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Our Commitment to Results, Tailored to Your Success',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
-  tagline: 'About Us Demo Page',
+    'At the heart of our business is a passion for crafting custom solutions that bring you results. We work hand-in-hand with you to transform challenges into opportunities with our personalized marketing campaigns. Our mission is to be more than a service provider—we’re your dedicated partner in achieving sustainable growth.',
+  tagline: `About Us`,
   callToAction: {
-    text: 'View jobs',
-    href: 'https://www.linkedin.com/',
-    targetBlank: true,
-  },
-  callToAction2: {
-    text: 'Contact us',
-    href: '/contact',
+    text: 'Get in touch',
+    href: '/contact/#contactTwo-on-contact',
+    targetBlank: false,
   },
   image: {
     src: hero2Img,
@@ -88,7 +84,7 @@ export const featuresFourAbout: FeaturesProps = {
   header: {
     title: 'Our mission',
     subtitle:
-      'Quisque laoreet nisi et lectus consectetur, at placerat libero dictum. Donec sed hendrerit turpis. Nunc vel nibh blandit, hendrerit turpis non, mattis magna. Duis feugiat dui mi, eget iaculis ligula gravida congue. Nam quis mauris id eros imperdiet imperdiet. In et dolor non nisi vestibulum rhoncus nec eget dolor.',
+      'Our mission is to empower businesses with tailored solutions that drive results and foster lasting success. By combining innovative technology, creative strategies, and a personal touch, we transform complexity into clarity and challenges into opportunities. We are committed to being not just your partner, but a cornerstone of growth.',
     tagline: 'Mission and Values',
   },
 };
@@ -99,42 +95,42 @@ export const featuresFourAboutTwo: FeaturesProps = {
   hasBackground: false,
   header: {
     title: 'Our values',
-    subtitle: 'Etiam tellus tortor, mattis id mauris et, lobortis ullamcorper nunc.',
+    subtitle: 'Built on a foundation of integrity, innovation, and dedication, our values guide everything we do. Here is what we stand for:',
   },
   isAfterContent: true,
   columns: 2,
   items: [
     {
-      title: 'Customer-centricity',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Transparency',
+      description: 'We believe trust is built on openness. That is why we keep every interaction honest, straightforward, and free from hidden agendas.',
       icon: IconUser,
     },
     {
-      title: 'Innovation and adaptability',
+      title: 'Personalization',
       description:
-        'Etiam ornare, purus nec venenatis porttitor, velit leo convallis dui, at porttitor nibh tortor quis velit.',
-      icon: IconBulb,
-    },
-    {
-      title: 'Quality assurance',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconThumbUp,
-    },
-    {
-      title: 'Accessibility and customization',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+        'We take the time to understand your unique needs, creating campaigns that align with your goals and vision. It is this personal approach that ensures every solution feels tailor-made.',
       icon: IconAdjustments,
     },
     {
-      title: 'Collaboration and partnership',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis.',
-      icon: IconHeartHandshake,
+      title: 'Innovation',
+      description: 'We leverage the latest advancements in AI to setup cutting-edge campaigns that keep you competitive in a rapidly evolving marketplace.',
+      icon: IconBulb,
     },
     {
-      title: 'Ethical and responsible design',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Dedication',
+      description: 'Your success is our priority. We are fully committed that every project receives the time, effort, and focus it deserves. Our goal is to exceed your expectations, every time.',
+      icon: IconStars,
+    },
+    {
+      title: 'Sustainability',
+      description: 'We aim for long-term success—not just quick wins. Our campaigns are designed to provide lasting value, helping your business thrive in both the present and the future.',
       icon: IconHomeEco,
+    },
+    {
+      title: 'Collaboration',
+      description:
+        'We believe in building partnerships, not just client lists. By fostering open communication and working closely with you, we ensure every step of our journey together is aligned, productive, and fulfilling.',
+      icon: IconHeartHandshake,
     },
   ],
 };
@@ -192,38 +188,38 @@ export const features3About: FeaturesProps = {
   header: {
     title: 'Our culture',
     subtitle:
-      'Nullam maximus ante eros, ac eleifend mi condimentum ut. Donec volutpat felis ac purus pretium, vitae mollis quam scelerisque.',
+      'Elevating Businesses Through Culture and Commitment',
     tagline: 'culture',
   },
   items: [
     {
-      title: 'Customer engagement',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Authenticity You Can Count On',
+      description: 'We believe in genuine relationships, built on honesty and mutual respect. Every interaction reflects our commitment to integrity.',
       icon: IconCirclesRelation,
     },
     {
-      title: 'Creativity and design excellence',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Personalized to Perfection',
+      description: 'We design every strategy to suit your unique business, ensuring exceptional results. Your business is unique, and so are our solutions.',
       icon: IconPalette,
     },
     {
-      title: 'Continuous learning',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      title: 'Driven by Innovation',
+      description: 'Leveraging the latest technologies and creative problem-solving, we provide forward-thinking solutions that keep you ahead of the curve.',
       icon: IconBook,
     },
     {
-      title: 'Collaboration and cross-functionality',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Commitment to Growth',
+      description: 'We don’t just deliver results; we foster sustainable, long-term growth that compounds over time for your business.',
       icon: IconPuzzle2,
     },
     {
-      title: 'Entrepreneurial spirit',
-      description: 'Phasellus interdum placerat enim sed vehicula. Ut tincidunt, magna in iaculis maximus.',
+      title: 'Exclusive Client Focus',
+      description: 'To maintain unparalleled quality, we work with only a select number of clients. This ensures your business gets the attention it deserves.',
       icon: IconFlame,
     },
     {
-      title: 'Employee well-being and balance',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Success Beyond Service',
+      description: 'Your victories are our victories. We partner with you to turn your vision into reality and celebrate every milestone together.',
       icon: IconScale,
     },
   ],
@@ -592,58 +588,51 @@ export const contactAbout: ContactProps = {
   id: 'contact-on-about',
   hasBackground: true,
   header: {
-    title: 'Contact us',
-    tagline: 'Contact info',
+    title: 'Get in Touch',
+    subtitle: 'Where Innovation Meets Your Goals',
+    tagline: 'Work with Us',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'We work with a select number of clients each quarter to ensure personalized service and exceptional results. We value your time and your trust. Share your vision, and we’ll respond with a personalized plan to help you achieve it.',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['Aleksandrou 2, Piraeus, 18533,','Athens - Attica, Greece'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +30 694 353 1213', 'Mail: contact@profitstarter.net'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['Monday - Friday: 08:00 - 17:00', 'GMT +2 Athens, Bucharest'],
       icon: IconClock,
     },
   ],
   form: {
+    title: 'Apply to collaborate',
     inputs: [
       {
         type: 'text',
-        label: 'Name',
         name: 'name',
-        placeholder: 'Introduce your name',
         autocomplete: 'off',
+        placeholder: 'Your name',
       },
       {
         type: 'email',
-        label: 'Email address',
         name: 'email',
-        placeholder: 'Introduce your email address',
         autocomplete: 'on',
+        placeholder: 'Your email address',
       },
     ],
     textarea: {
       cols: 30,
       rows: 5,
-      label: 'How can we help you?',
       name: 'textarea',
       placeholder: 'Write your message...',
     },
-    checkboxes: [
-      {
-        label: 'Have you read our privacy policy?',
-        value: '',
-      },
-    ],
     btn: {
       title: 'Contact us',
       type: 'submit',

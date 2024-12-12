@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'Profit Starter',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: '',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Custom Marketing Strategies | Tailored Solutions by PROFIT STARTER',
+  description: 'Specializing in personalized marketing, automation, and business solutions, we help decision-makers achieve growth and efficiency. Limited client focus ensures 100% dedication to your goals.',
 };

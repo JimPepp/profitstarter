@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 
-import CallToAction from '~/components/widgets/CallToAction';
+import CallToAction2 from '~/components/widgets/CallToAction2';
 import FAQs4 from '~/components/widgets/FAQs4';
-import { heroFaqs, callToActionFaqs, faqs4Faqs } from '~/shared/data/pages/faqs.data';
+import { heroFaqs, faqs4Faqs } from '~/shared/data/pages/faqs.data';
+import { callToAction2Home } from '~/shared/data/pages/home.data';
 import Hero from '~/components/widgets/Hero';
 
 export const metadata: Metadata = {
@@ -12,9 +13,9 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      <Hero {...heroFaqs} />
+      {/* <Hero {...heroFaqs} /> */}
       <FAQs4 {...faqs4Faqs} />
-      <CallToAction {...callToActionFaqs} />
+      <CallToAction2 {...callToAction2Home} />
     </>
   );
 };
