@@ -6,5 +6,5 @@ module.exports.SITE = {
   trailingSlash: false,
 
   title: 'Custom Marketing Strategies | Tailored Solutions by PROFIT STARTER',
-  description: 'Specializing in personalized marketing, automation, and business solutions, we help decision-makers achieve growth and efficiency. Limited client focus ensures 100% dedication to your goals.',
+  description: 'Specializing in personalized marketing, we help businesses achieve growth and efficiency. Limited client focus ensures 100% dedication to your goals.',
 };
