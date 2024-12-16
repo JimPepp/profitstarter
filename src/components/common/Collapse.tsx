@@ -32,9 +32,9 @@ const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps)
                   iconDown
                 )
               ) : activeIndex === index ? (
-                <IconChevronUp className="h-6 w-6 text-accent-600 dark:text-slate-200" />
+                <IconChevronUp className="h-6 w-6 text-accent-600" />
               ) : (
-                <IconChevronDown className="h-6 w-6 text-accent-600 dark:text-slate-200" />
+                <IconChevronDown className="h-6 w-6 text-accent-600" />
               )}
             </div>
             {activeIndex === index && (
@@ -43,7 +43,7 @@ const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps)
                 aria-labelledby={`accordion__heading-${index}`}
                 id={`accordion__panel-${index}`}
               >
-                <p className="mt-2 text-text-50/80 dark:text-slate-400">{description}</p>
+                <p className="mt-2 text-text-50/80">{description}</p>
               </div>
             )}
           </div>

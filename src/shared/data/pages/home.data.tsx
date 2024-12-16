@@ -49,7 +49,7 @@ export const heroHome: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-        Premium Solutions tailored to empower your business with <em>out-of-the-box strategies</em> and{' '}
+        Premium Solutions tailored to your business with <em>out-of-the-box strategies</em> and{' '}
         <em>innovative technologies</em>.
       </span>{' '}
       Built for businesses that{' '}

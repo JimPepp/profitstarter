@@ -52,7 +52,7 @@ const preview: Preview = {
   decorators: [
     (Story) => (
       <div
-        className={`bg-white tracking-tight text-gray-900 antialiased dark:bg-slate-900 dark:text-slate-300 ${customFont.variable} font-sans`}
+        className={`bg-white tracking-tight text-gray-900 antialiased ${customFont.variable} font-sans`}
       >
         <Story />
       </div>
@@ -60,7 +60,7 @@ const preview: Preview = {
     withThemeByClassName<ReactRenderer>({
       themes: {
         light: '',
-        dark: 'dark',
+        dark: '',
       },
       defaultTheme: 'light',
     }),

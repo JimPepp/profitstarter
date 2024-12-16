@@ -10,7 +10,7 @@ const Card = ({ title, description, href, form }: Item) => (
       </div>
       {href && (
         <div className="flex h-10 w-10 items-center justify-center">
-          <IconChevronRight className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+          <IconChevronRight className="h-6 w-6 text-primary-600" />
         </div>
       )}
     </div>
@@ -19,7 +19,7 @@ const Card = ({ title, description, href, form }: Item) => (
         <form className="rounded-md border border-gray-400 bg-white shadow-md">
           <div className="flex items-center">
             {form.icon && (
-              <span className="rounded-bl-md rtl:rounded-bl-none rtl:rounded-br-md rounded-tl-md rtl:rounded-tl-none rtl:rounded-tr-md border-r-[1px] rtl:border-r-none rtl:border-l-[1px] border-gray-400 px-2 py-2 dark:bg-[#3b3b3b]">
+              <span className="rounded-bl-md rtl:rounded-bl-none rtl:rounded-br-md rounded-tl-md rtl:rounded-tl-none rtl:rounded-tr-md border-r-[1px] rtl:border-r-none rtl:border-l-[1px] border-gray-400 px-2 py-2">
                 <form.icon className="h-6 w-6 text-accent-600" />
               </span>
             )}
@@ -28,7 +28,7 @@ const Card = ({ title, description, href, form }: Item) => (
               name={form.input.name}
               autoComplete={form.input.autocomplete}
               placeholder={form.input.placeholder}
-              className="w-full py-2 px-4 dark:text-gray-300"
+              className="w-full py-2 px-4 bg-background-950"
             />
             <button
               type={form.btn.type}
@@ -49,7 +49,7 @@ const CallToAction2 = ({ title, subtitle, items }: CallToActionProps) => (
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mx-auto md:my-auto md:ml-0 md:pb-6 md:pr-24">
           <h2 className="mb-3 flex justify-center text-6xl font-bold md:justify-start">{title}</h2>
-          <p className="text-center text-xl text-text-50/80 dark:text-slate-300 md:text-left rtl:md:text-right">
+          <p className="text-center text-xl text-text-50/80 md:text-left rtl:md:text-right">
             {subtitle}
           </p>
         </div>

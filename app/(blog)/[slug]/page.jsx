@@ -41,7 +41,7 @@ export default async function Page({ params }) {
           {post.image ? (
             <Image
               src={post.image}
-              className="mx-auto mt-4 mb-6 max-w-full bg-gray-400 dark:bg-slate-700 sm:rounded-md lg:max-w-6xl"
+              className="mx-auto mt-4 mb-6 max-w-full bg-gray-400 sm:rounded-md lg:max-w-6xl"
               sizes="(max-width: 900px) 400px, 900px"
               alt={post.description}
               loading="eager"
@@ -51,12 +51,12 @@ export default async function Page({ params }) {
             />
           ) : (
             <div className="mx-auto max-w-3xl px-4 sm:px-6">
-              <div className="border-t dark:border-slate-700" />
+              <div className="border-t" />
             </div>
           )}
         </header>
         <div
-          className="prose-p:text-text-50 prose-headings:text-text-50/80 prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-accent-500 prose-img:rounded-md prose-img:shadow-lg dark:prose-invert sm:px-6 lg:prose-xl"
+          className="prose-p:text-text-50 prose-headings:text-text-50/80 prose-md prose-headings:font-heading prose-headings:leading-tighter container prose prose-lg mx-auto mt-8 max-w-3xl px-6 prose-headings:font-bold prose-headings:tracking-tighter prose-a:text-accent-500 prose-img:rounded-md prose-img:shadow-lg sm:px-6 lg:prose-xl"
           dangerouslySetInnerHTML={{
             __html: md({
               html: true,

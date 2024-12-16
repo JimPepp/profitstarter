@@ -9,7 +9,7 @@ const Contact = ({ header, content, items, form, id, hasBackground = false }: Co
     <div className="flex items-stretch justify-center">
       <div className={`grid ${!content && !items ? 'md:grid-cols-1' : 'md:grid-cols-2'}`}>
         <div className="h-full pr-6">
-          {content && <p className="mt-3 mb-12 text-lg text-text-50/80 dark:text-slate-400">{content}</p>}
+          {content && <p className="mt-3 mb-12 text-lg text-text-50/80">{content}</p>}
           <ul className="mb-6 md:mb-0">
             {items &&
               items.map(({ title, description, icon: Icon }, index) => (
