@@ -111,7 +111,7 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap font-Playfair text-6xl uppercase">Profit Starter</span>
+        What you get with <span className="whitespace-nowrap font-Playfair uppercase"><br/>Profit Starter</span>
       </>
     ),
     subtitle: 'Made-to-measure solutions to market and your business.',
